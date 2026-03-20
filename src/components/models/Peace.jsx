@@ -18,7 +18,7 @@ function Peace() {
     }
   return (
     <>
-    <OrbitControls  />
+    <OrbitControls target={[-1, 7, 0]}   />
     
      <ambientLight intensity={0.5} />
 

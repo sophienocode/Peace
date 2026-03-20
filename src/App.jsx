@@ -9,7 +9,7 @@ function App() {
   return (
     <>
    <div style={{ width: '100vw', height: '100vh'}} >
-    <Canvas camera={{ position: [ 6, 5, 5], fov: 55 }} >
+    <Canvas camera={{ position: [ -15, 15, 40], fov: 29 }} >
       
     
      <Peace /> 
