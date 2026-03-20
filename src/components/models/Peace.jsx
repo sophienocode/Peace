@@ -19,6 +19,17 @@ function Peace() {
   return (
     <>
     <OrbitControls  />
+    
+     <ambientLight intensity={0.5} />
+
+    <directionalLight 
+        position={[5, 10, 5]} 
+        intensity={1}
+        castShadow // Se quiser sombras
+    />
+
+    <pointLight position={[0, 5, 0]} intensity={0.5} />
+
 
     {/* Grupo que contém modelo + áudio*/}
     <group onClick={clickHandler} position={[0, 0, 0]} >
@@ -35,6 +46,7 @@ function Peace() {
     loop
     distance={5}
     />}
+    
     </group>
 
 
